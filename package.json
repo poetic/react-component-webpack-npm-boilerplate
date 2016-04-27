@@ -1,6 +1,6 @@
 {
   "name": "react-component-webpack-npm-boilerplate",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "standalone react component package boilerplate with front-end mocha test",
   "main": "dist/src.bundle.js",
   "scripts": {
