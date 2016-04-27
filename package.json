@@ -1,0 +1,26 @@
+{
+  "name": "react-component-webpack-npm-boilerplate",
+  "version": "0.0.1",
+  "description": "standalone react component package boilerplate with front-end mocha test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chun Yang (https://github.com/Chun-Yang)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/poetic/react-component-webpack-npm-boilerplate.git"
+  },
+  "keywords": [
+    "react",
+    "mocha",
+    "npm",
+    "webpack",
+    "boilerplate"
+  ],
+  "bugs": {
+    "url": "https://github.com/poetic/react-component-webpack-npm-boilerplate/issues"
+  },
+  "homepage": "https://github.com/poetic/react-component-webpack-npm-boilerplate#readme"
+}
