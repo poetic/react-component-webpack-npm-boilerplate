@@ -56,9 +56,8 @@
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
-	describe('GooglePlaces', function () {
+	describe('MyComponent', function () {
 	  it('should render', function () {
-	    // TODO: import files and dependencies
 	    chai.assert(true);
 	  });
 	});
@@ -72,7 +71,7 @@
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
 	});
-	exports.default = GooglePlaces;
+	exports.default = MyComponent;
 	
 	var _react = __webpack_require__(2);
 	
@@ -80,18 +79,8 @@
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
-	function _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }
-	
-	function GooglePlaces(_ref) {
-	  var itemComponent = _ref.itemComponent;
-	  var itemProps = _ref.itemProps;
-	  var _ref$options = _ref.options;
-	  var input = _ref$options.input;
-	  var key = _ref$options.key;
-	
-	  var other = _objectWithoutProperties(_ref, ['itemComponent', 'itemProps', 'options']);
-	
-	  return _react2.default.createElement('div', other);
+	function MyComponent() {
+	  return _react2.default.createElement('div', null);
 	}
 
 /***/ },
