@@ -1,6 +1,6 @@
 {
   "name": "my-component",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "standalone react component package boilerplate with front-end mocha test",
   "main": "dist/src.bundle.js",
   "scripts": {
