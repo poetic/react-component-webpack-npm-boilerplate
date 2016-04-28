@@ -4,7 +4,8 @@
   "description": "standalone react component package boilerplate with front-end mocha test",
   "main": "dist/src.bundle.js",
   "scripts": {
-    "build": "webpack",
+    "build": "babel src --out-dir dist",
+    "prepublish": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "browser": "open http://localhost:8080/ && webpack-dev-server --hot --inline --content-base ./"
   },
